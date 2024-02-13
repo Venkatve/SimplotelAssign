@@ -61,11 +61,13 @@ body{
     padding: 30px 0px;
     padding-left: 150px;
     margin-bottom: 100px;
-
+    
 }
 .left{
+    
     display: flex;
 }
+
 .leftimage > img{
     width: 250px;
     height: 200px;
@@ -80,6 +82,8 @@ body{
     margin: 10px;
 }
 
+
+
 .content-right{
     width: 50%;
     padding: 100px 50px;
@@ -90,6 +94,9 @@ body{
     height: 260px;
     padding: 30px 40px;
 }
+/* .content-right > .card:hover{
+   background-color:blue ;
+} */
 .card > h1{
     font-size: 50px;
     letter-spacing: 5px;
@@ -108,6 +115,17 @@ body{
     margin-left: 10px;
     margin-top: 5px;
 }
+
+/* .card > h1:hover{
+    color: white;
+}
+.card > div:hover{
+    color: white;
+}
+.card > p:hover{
+    color: white;
+} */
+
 
 @media (max-width:1300px){
     .content1{
